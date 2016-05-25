@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[GameCenterManager sharedManager] setupManager];
+    [[GameCenterManager sharedManager] setDelegate:self];
+  
     return YES;
 }
 
@@ -28,6 +31,7 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [[GameCenterManager sharedManager] reportSavedScoresAndAchievements];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
@@ -40,6 +44,14 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)gameCenterManager:(GameCenterManager *)manager authenticateUser:(UIViewController *)gameCenterLoginController{
+    NSLog(@"Game Center Authentication : %@", manager.localPlayerDisplayName);
+}
+
+- (void)gameCenterManager:(GameCenterManager *)manager error:(NSError *)error{
+    NSLog(@"Game Center error : %@", error);
 }
 
 @end

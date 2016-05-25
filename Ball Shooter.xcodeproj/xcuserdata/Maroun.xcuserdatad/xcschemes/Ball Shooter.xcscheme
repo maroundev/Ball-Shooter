@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1486CF591C478BC200B9024F"
-               BuildableName = "Ball Shooter.app"
+               BuildableName = "Splash Balls.app"
                BlueprintName = "Ball Shooter"
                ReferencedContainer = "container:Ball Shooter.xcodeproj">
             </BuildableReference>
@@ -28,32 +28,12 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1486CF771C478BC300B9024F"
-               BuildableName = "Ball ShooterTests.xctest"
-               BlueprintName = "Ball ShooterTests"
-               ReferencedContainer = "container:Ball Shooter.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1486CF821C478BC300B9024F"
-               BuildableName = "Ball ShooterUITests.xctest"
-               BlueprintName = "Ball ShooterUITests"
-               ReferencedContainer = "container:Ball Shooter.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1486CF591C478BC200B9024F"
-            BuildableName = "Ball Shooter.app"
+            BuildableName = "Splash Balls.app"
             BlueprintName = "Ball Shooter"
             ReferencedContainer = "container:Ball Shooter.xcodeproj">
          </BuildableReference>
@@ -76,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1486CF591C478BC200B9024F"
-            BuildableName = "Ball Shooter.app"
+            BuildableName = "Splash Balls.app"
             BlueprintName = "Ball Shooter"
             ReferencedContainer = "container:Ball Shooter.xcodeproj">
          </BuildableReference>
@@ -95,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1486CF591C478BC200B9024F"
-            BuildableName = "Ball Shooter.app"
+            BuildableName = "Splash Balls.app"
             BlueprintName = "Ball Shooter"
             ReferencedContainer = "container:Ball Shooter.xcodeproj">
          </BuildableReference>
